@@ -20,7 +20,7 @@ int main()
 	sort(product, product + m);		//从小到大排序
 	int i = 0, j, ans = 0; 			//ans 存放乘积之和
 	while(i<n && j<m && coupon[i] < 0 && product[i] < 0){
-		ans += coupon[i] + product[i];		//当前位置均小于 0 时，累加乘积
+		ans += coupon[i] * product[i];		//当前位置均小于 0 时，累加乘积
 		i++; 
 	} 
 	i = n - 1;
