@@ -10,9 +10,9 @@ int main()
 	{
 		scanf("%lld %lld %lld", &A, &B, &C);
 		if(A + B > C){
-			printf("Case #%d: true", cnt);
+			printf("Case #%d: true\n", cnt);
 		}else{
-			printf("Case #%d: false", cnt);
+			printf("Case #%d: false\n", cnt);
 		}
 		cnt++;
 	}
